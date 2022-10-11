@@ -1,0 +1,226 @@
+.header-section {
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+.layout-padding2 {
+  padding: 45px;
+}
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.custom-nav-container {
+  z-index: 99999;
+  padding: 5px 0;
+}
+.nav-link {
+  padding: 10px 30px;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+.detail-box h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  color: #1a2e35;
+}
+.detail-box h1 span {
+  color: #ff4f5a;
+}
+.about-section {
+  text-align: center;
+}
+.layout-padding {
+  padding: 75px 0;
+}
+.custom-heading-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.custom-heading-container h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  position: relative;
+}
+.layout-padding2-top {
+  padding-top: 45px;
+}
+.layout-padding2-bottom {
+  padding-bottom: 45px;
+}
+.btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+.btn-box a {
+  color: #1d1d1d;
+  margin-right: 15px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.service-container {
+  padding: 45px 50px 75px 50px;
+}
+.service-section {
+  text-align: center;
+  position: relative;
+}
+.service-section img {
+  height: 200px;
+}
+.work-section {
+  background-color: #ff4f5a;
+}
+.work-section .custom-heading-container h3 {
+  color: #ffffff;
+}
+.work-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 45px 0;
+}
+
+.work-section .work-container .box {
+  width: 275px;
+  height: 275px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 35px 0 20px 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 45px 10px;
+  -webkit-box-shadow: 0 0 8px 0px rgb(0 0 0 / 10%);
+  box-shadow: 0 0 8px 0px rgb(0 0 0 / 10%);
+}
+.work-section .btn-box a {
+  color: #ffffff;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+.client-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 400px;
+  border: 1px solid #cccccc;
+  padding: 45px 35px 35px 25px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+.client-section .client-container .detail-box p {
+  text-align: center;
+}
+.client-section .client-container .client-id .img-box img {
+  width: 70%;
+}
+.client-section .client-container .client-id {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.client-section .client-container .client-id .name h6 {
+  color: #ff4f5a;
+}
+.ft-clr {
+  background-color: #ff4f5a;
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.nav-search-btn {
+  background-image: url(./search-icon.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+}
+.navbar-nav .nav-item .nav-link {
+  padding: 10px 30px;
+}
+.second-part-pding {
+  padding: 45px 0;
+}
+.btn-box hr {
+  width: 75px;
+  height: 2px;
+  border: none;
+  margin: 0;
+}
+.about {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 50%;
+  width: 50px;
+  height: 7px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #ff4f5a;
+  border-radius: 15px;
+}
+.work-section .custom-heading-container .about {
+  background-color: #ffffff;
+}
+.service-section .service-container .detail-box .btn-box hr {
+  background-color: #ff4f5a;
+}
+.read {
+  color: #ff4f5a;
+}
+.work-section .btn-box hr {
+  background-color: #ffffff;
+}
