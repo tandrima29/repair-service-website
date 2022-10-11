@@ -224,3 +224,16 @@ body {
 .work-section .btn-box hr {
   background-color: #ffffff;
 }
+.navbar-toggler-icon {
+  background-image: url(./menu.png);
+  background-size: 42px;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-size: 100% 100%;
+  margin-left: 40%;
+}
+.btn-color {
+  margin-left: 40%;
+}
