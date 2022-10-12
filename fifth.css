@@ -2,9 +2,7 @@
   background-color: #000000;
   font-family: "Poppins", sans-serif;
 }
-.layout-padding2 {
-  padding: 45px;
-}
+
 .navbar-brand span {
   font-weight: bold;
   font-size: 24px;
@@ -145,7 +143,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 400px;
+  width: 350px;
   border: 1px solid #cccccc;
   padding: 45px 35px 35px 25px;
   background-color: #ffffff;
@@ -236,4 +234,7 @@ body {
 }
 .btn-color {
   margin-left: 40%;
+}
+.detail-box {
+  margin-left: 10px;
 }
